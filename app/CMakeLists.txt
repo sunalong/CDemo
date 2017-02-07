@@ -1,10 +1,9 @@
 cmake_minimum_required(VERSION 3.4.1)
 
-file(GLOB native_srcs "src/main/cpp/study/*.cpp"
- "src/main/cpp/study/*.c")
+file(GLOB study_srcs "src/main/cpp/study/*.cpp" "src/main/cpp/study/*.c")
+file(GLOB test_srcs "src/main/cpp/test/*.cpp" "src/main/cpp/test/*.c")
+file(GLOB point_srcs "src/main/cpp/point/*.cpp" "src/main/cpp/point/*.c")
 
-file(GLOB test_srcs "src/main/cpp/test/*.cpp"
- "src/main/cpp/test/*.c")
 add_library( # Sets the name of the library.
              native-lib
 
@@ -14,8 +13,9 @@ add_library( # Sets the name of the library.
              # Provides a relative path to your source file(s).
              # Associated headers in the same location as their source
              # file are automatically included.
-             ${native_srcs}
-             ${test_srcs})
+             ${study_srcs}
+             ${test_srcs}
+             ${point_srcs})
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because system libraries are included in the search path by
