@@ -51,206 +51,254 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Object build statements for SHARED_LIBRARY target native-lib
 
-build CMakeFiles/native-lib.dir/src/main/cpp/NullTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/NullTest.cpp
+build CMakeFiles/native-lib.dir/src/main/cpp/study/NullTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/NullTest.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/NullTest.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/NullTest.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/NullTest.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/NullTest.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/PThreadTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/PThreadTest.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/PThreadTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/PThreadTest.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/PThreadTest.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/PThreadTest.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/PThreadTest.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/PThreadTest.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/defineTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/defineTest.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/defineTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/defineTest.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/defineTest.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/defineTest.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/defineTest.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/defineTest.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/dynamicMemory.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/dynamicMemory.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/dynamicMemory.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/dynamicMemory.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/dynamicMemory.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/dynamicMemory.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/dynamicMemory.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/dynamicMemory.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/fin.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/fin.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/fin.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/fin.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/fin.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/fin.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/fin.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/fin.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/fuck.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/fuck.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/fuck.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/fuck.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/fuck.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/fuck.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/fuck.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/fuck.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/helloWorld.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/helloWorld.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/helloWorld.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/helloWorld.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/helloWorld.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/helloWorld.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/helloWorld.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/helloWorld.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/main.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/main.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/main.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/main.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/main.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/main.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/main.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/main.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/native-lib.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/native-lib.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/native-lib.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/native-lib.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/native-lib.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/native-lib.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/pointerTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/pointerTest.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/pointerTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/pointerTest.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/pointerTest.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/pointerTest.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/pointerTest.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/pointerTest.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/pthreadJoinDetach.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/pthreadJoinDetach.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/pointerToFunction.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/pointerToFunction.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/pthreadJoinDetach.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/pointerToFunction.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/pthreadJoinDetach.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/pointerToFunction.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/pthreadWithMultiParams.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/pthreadWithMultiParams.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/pthreadJoinDetach.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/pthreadJoinDetach.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/pthreadWithMultiParams.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/pthreadJoinDetach.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/pthreadWithMultiParams.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/pthreadJoinDetach.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/pthreadWithParam.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/pthreadWithParam.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/pthreadWithMultiParams.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/pthreadWithMultiParams.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/pthreadWithParam.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/pthreadWithMultiParams.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/pthreadWithParam.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/pthreadWithMultiParams.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/referenceTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/referenceTest.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/pthreadWithParam.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/pthreadWithParam.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/referenceTest.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/pthreadWithParam.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/referenceTest.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/pthreadWithParam.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/regularTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/regularTest.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/referenceTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/referenceTest.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/regularTest.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/referenceTest.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/regularTest.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/referenceTest.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/signal.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/signal.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/regularTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/regularTest.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/signal.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/regularTest.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/signal.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/regularTest.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/stringTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/stringTest.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/signal.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/signal.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/stringTest.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/signal.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/stringTest.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/signal.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/stringTest2.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/stringTest2.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/stringTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/stringTest.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/stringTest2.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/stringTest.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/stringTest2.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/stringTest.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/structTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/structTest.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/stringTest2.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/stringTest2.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/structTest.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/stringTest2.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/structTest.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/stringTest2.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/structTest2.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/structTest2.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/structTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/structTest.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/structTest2.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/structTest.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/structTest2.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/structTest.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/suport.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/suport.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/structTest2.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/structTest2.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/suport.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/structTest2.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/suport.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/structTest2.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/templateTest2.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/templateTest2.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/suport.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/suport.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/templateTest2.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/suport.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/templateTest2.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/suport.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/templeteTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/templeteTest.cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/templateTest2.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/templateTest2.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/templeteTest.cpp.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/templateTest2.cpp.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
   INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/templeteTest.cpp
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/templateTest2.cpp
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-build CMakeFiles/native-lib.dir/src/main/cpp/Windows.c.c.o: C_COMPILER__native-lib ../../../../src/main/cpp/Windows.c.c
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/templeteTest.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/templeteTest.cpp
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/Windows.c.c.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/templeteTest.cpp.o.d
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/templeteTest.cpp
+  OBJECT_DIR = CMakeFiles/native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/testException2.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/testException2.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/testException2.cpp.o.d
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/testException2.cpp
+  OBJECT_DIR = CMakeFiles/native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/testOut.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/testOut.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/testOut.cpp.o.d
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/testOut.cpp
+  OBJECT_DIR = CMakeFiles/native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/testcatch.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/testcatch.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/testcatch.cpp.o.d
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/testcatch.cpp
+  OBJECT_DIR = CMakeFiles/native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/testexception.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/study/testexception.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/testexception.cpp.o.d
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/testexception.cpp
+  OBJECT_DIR = CMakeFiles/native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/study/Windows.c.c.o: C_COMPILER__native-lib ../../../../src/main/cpp/study/Windows.c.c
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/Windows.c.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/Windows.c.c
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/Windows.c.c
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
-ident0 = ../../../../src/main/cpp/转义字符.c
-ident1 = CMakeFiles/native-lib.dir/src/main/cpp/转义字符.c.o
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+ident0 = ../../../../src/main/cpp/study/转义字符.c
+ident1 = CMakeFiles/native-lib.dir/src/main/cpp/study/转义字符.c.o
 build $ident1: C_COMPILER__native-lib $ident0
   DEFINES = -Dnative_lib_EXPORTS
-  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/转义字符.c.o.d
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/study/转义字符.c.o.d
   FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
-  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/转义字符.c
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/study/转义字符.c
   OBJECT_DIR = CMakeFiles/native-lib.dir
-  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/study
+build CMakeFiles/native-lib.dir/src/main/cpp/test/charPoint.cpp.o: CXX_COMPILER__native-lib ../../../../src/main/cpp/test/charPoint.cpp
+  DEFINES = -Dnative_lib_EXPORTS
+  DEP_FILE = CMakeFiles/native-lib.dir/src/main/cpp/test/charPoint.cpp.o.d
+  FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC
+  INCLUDES = -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward
+  IN_ABS = /Users/along/GitHub/CDemo/app/src/main/cpp/test/charPoint.cpp
+  OBJECT_DIR = CMakeFiles/native-lib.dir
+  OBJECT_FILE_DIR = CMakeFiles/native-lib.dir/src/main/cpp/test
 
 # =============================================================================
 # Link build statements for SHARED_LIBRARY target native-lib
@@ -259,8 +307,8 @@ build $ident1: C_COMPILER__native-lib $ident0
 #############################################
 # Link the shared library ../../../../build/intermediates/cmake/release/obj/x86_64/libnative-lib.so
 
-ident2 = CMakeFiles/native-lib.dir/src/main/cpp/转义字符.c.o
-build ../../../../build/intermediates/cmake/release/obj/x86_64/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/NullTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/PThreadTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/defineTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/dynamicMemory.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/fin.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/fuck.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/helloWorld.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/main.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/pointerTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/pthreadJoinDetach.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/pthreadWithMultiParams.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/pthreadWithParam.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/referenceTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/regularTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/signal.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/stringTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/stringTest2.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/structTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/structTest2.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/suport.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/templateTest2.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/templeteTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/Windows.c.c.o $ident2 | /Users/along/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib64/liblog.so
+ident2 = CMakeFiles/native-lib.dir/src/main/cpp/study/转义字符.c.o
+build ../../../../build/intermediates/cmake/release/obj/x86_64/libnative-lib.so: CXX_SHARED_LIBRARY_LINKER__native-lib CMakeFiles/native-lib.dir/src/main/cpp/study/NullTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/PThreadTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/defineTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/dynamicMemory.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/fin.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/fuck.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/helloWorld.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/main.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/native-lib.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/pointerTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/pointerToFunction.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/pthreadJoinDetach.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/pthreadWithMultiParams.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/pthreadWithParam.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/referenceTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/regularTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/signal.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/stringTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/stringTest2.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/structTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/structTest2.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/suport.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/templateTest2.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/templeteTest.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/testException2.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/testOut.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/testcatch.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/testexception.cpp.o CMakeFiles/native-lib.dir/src/main/cpp/study/Windows.c.c.o $ident2 CMakeFiles/native-lib.dir/src/main/cpp/test/charPoint.cpp.o | /Users/along/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/lib64/liblog.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti  -O2 -DNDEBUG -O2 -DNDEBUG
   LINK_FLAGS = -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Wl,-z,noexecstack -Qunused-arguments -Wl,-z,relro -Wl,-z,now
   LINK_LIBRARIES = -llog -lm "/Users/along/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/libgnustl_static.a"
