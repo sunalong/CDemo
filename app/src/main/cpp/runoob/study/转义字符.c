@@ -3,7 +3,7 @@
 // Email:466210864@qq.com
 //
 
-#include <stdio.h>
+#include "../../../../../../../../Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include/stdio.h"
 void main(){
     printf("hello world\a\n");
     int num;

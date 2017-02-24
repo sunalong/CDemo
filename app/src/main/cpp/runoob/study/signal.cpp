@@ -4,8 +4,8 @@
 //
 #include <iostream>
 #include <csignal>
-#include <stdlib.h>
-#include <unistd.h>
+#include "../../../../../../../../Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include/stdlib.h"
+#include "../../../../../../../../Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include/unistd.h"
 using namespace std;
 void signalHandler(int signalNum){
     cout<<"Interrupt signal:"<<signalNum<<" received.\n";

@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.4.1)
 
-file(GLOB study_srcs "src/main/cpp/study/*.cpp" "src/main/cpp/study/*.c")
-file(GLOB test_srcs "src/main/cpp/test/*.cpp" "src/main/cpp/test/*.c")
-file(GLOB point_srcs "src/main/cpp/point/*.cpp" "src/main/cpp/point/*.c")
+file(GLOB study_srcs "src/main/cpp/runoob/study/*.cpp" "src/main/cpp/runoob/study/*.c")
+file(GLOB test_srcs "src/main/cpp/runoob/test/*.cpp" "src/main/cpp/runoob/test/*.c")
+file(GLOB point_srcs "src/main/cpp/runoob/point/*.cpp" "src/main/cpp/runoob/point/*.c")
 
 add_library( # Sets the name of the library.
              native-lib

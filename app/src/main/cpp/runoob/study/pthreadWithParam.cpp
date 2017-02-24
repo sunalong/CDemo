@@ -3,8 +3,8 @@
 // Email:466210864@qq.com
 //
 #include <iostream>
-#include <stdlib.h>
-#include <unistd.h>
+#include "../../../../../../../../Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include/stdlib.h"
+#include "../../../../../../../../Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include/unistd.h"
 
 using namespace std;
 #define NUM_THREADS 5
