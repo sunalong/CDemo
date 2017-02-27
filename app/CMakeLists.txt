@@ -3,6 +3,8 @@ cmake_minimum_required(VERSION 3.4.1)
 file(GLOB study_srcs "src/main/cpp/runoob/study/*.cpp" "src/main/cpp/runoob/study/*.c")
 file(GLOB test_srcs "src/main/cpp/runoob/test/*.cpp" "src/main/cpp/runoob/test/*.c")
 file(GLOB point_srcs "src/main/cpp/runoob/point/*.cpp" "src/main/cpp/runoob/point/*.c")
+file(GLOB enter_file "src/main/cpp/*.cpp")
+file(GLOB _20140807 "src/main/cpp/02CPP/_20140807/*.cpp" "src/main/cpp/02CPP/_20140807/*.cpp")
 
 add_library( # Sets the name of the library.
              native-lib
@@ -15,7 +17,8 @@ add_library( # Sets the name of the library.
              # file are automatically included.
              ${study_srcs}
              ${test_srcs}
-             ${point_srcs})
+             ${point_srcs}
+             ${_20140807})
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because system libraries are included in the search path by
