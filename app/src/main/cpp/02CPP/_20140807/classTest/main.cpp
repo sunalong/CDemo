@@ -6,7 +6,7 @@
 #include <iostream>
 #include "man.h"
 #include "Person.h"
-
+#include "single.h"
 using namespace std;
 extern int i;
 
@@ -23,6 +23,8 @@ void testCopy2(man &man1);
 
 void testThis();
 
+void testSingle();
+
 int main() {
     testStack();
     testNew();
@@ -31,7 +33,18 @@ int main() {
     testCopy2(man1);
     testConstObject();
     testThis();
+    testSingle();
     return 0;
+}
+
+void testSingle() {
+    cout << "单例调用1：" << single::getInstance()->getNum() << endl;
+    cout << "单例调用2：" << single::getInstance()->getNum() << endl;
+    cout<<"单例释放："<<endl;
+//    single::releaseInstance();//可两次调用
+//    single::releaseInstance();
+    delete single::getInstance();//为何不可两次调用？pointer being freed was not allocated
+    delete single::getInstance();
 }
 
 void testThis() {
