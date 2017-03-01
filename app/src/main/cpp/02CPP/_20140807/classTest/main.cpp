@@ -7,6 +7,7 @@
 #include "man.h"
 #include "Person.h"
 #include "single.h"
+#include "mystring.h"
 using namespace std;
 extern int i;
 
@@ -25,6 +26,8 @@ void testThis();
 
 void testSingle();
 
+void testCustomString();
+
 int main() {
     testStack();
     testNew();
@@ -34,7 +37,17 @@ int main() {
     testConstObject();
     testThis();
     testSingle();
+    testCustomString();
     return 0;
+}
+/**
+ * 测试自定义字符串类
+ */
+void testCustomString() {
+    cout <<"测试自定义字符串类1："<< MyString::makeString("s1")->getStr() << endl;
+    MyString::makeString("s2")->setStr("setStr");
+    cout <<"测试自定义字符串类2："<< MyString::makeString("s3")->getStr() << endl;
+    cout <<"测试自定义字符串类3："<< MyString::makeString(NULL)->getStr() << endl;
 }
 
 void testSingle() {
@@ -44,7 +57,7 @@ void testSingle() {
 //    single::releaseInstance();//可两次调用
 //    single::releaseInstance();
     delete single::getInstance();//为何不可两次调用？pointer being freed was not allocated
-    delete single::getInstance();
+//    delete single::getInstance();
 }
 
 void testThis() {
