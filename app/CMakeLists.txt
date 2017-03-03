@@ -1,12 +1,9 @@
 cmake_minimum_required(VERSION 3.4.1)
 
-file(GLOB study_srcs "src/main/cpp/runoob/study/*.cpp" "src/main/cpp/runoob/study/*.c")
-file(GLOB test_srcs "src/main/cpp/runoob/test/*.cpp" "src/main/cpp/runoob/test/*.c")
-file(GLOB point_srcs "src/main/cpp/runoob/point/*.cpp" "src/main/cpp/runoob/point/*.c")
-file(GLOB enter_file "src/main/cpp/*.cpp")
-file(GLOB _20140807 "src/main/cpp/02CPP/_20140807/*.cpp" "src/main/cpp/02CPP/_20140807/*.cpp")
-file(GLOB _20140807_classTest "src/main/cpp/02CPP/_20140807/classTest/*.cpp" "src/main/cpp/02CPP/_20140807/classTest/*.c")
-file(GLOB udp_win "src/main/cpp/02CPP/_20140807/udp_win/*.cpp" "src/main/cpp/02CPP/_20140807/udp_win/*.c")
+file(GLOB first "src/main/cpp/02CPP/*/*.cpp" "src/main/cpp/02CPP/*/*.c")
+file(GLOB sencond "src/main/cpp/02CPP/*/*/*.cpp" "src/main/cpp/02CPP/*/*/*.c")
+file(GLOB third "src/main/cpp/02CPP/*/*/*/*.cpp" "src/main/cpp/02CPP/*/*/*/*.c")
+file(GLOB forth "src/main/cpp/02CPP/*/*/*/*/*.cpp" "src/main/cpp/02CPP/*/*/*/*/*.c")
 
 add_library( # Sets the name of the library.
              native-lib
@@ -17,12 +14,11 @@ add_library( # Sets the name of the library.
              # Provides a relative path to your source file(s).
              # Associated headers in the same location as their source
              # file are automatically included.
-             ${study_srcs}
-             ${test_srcs}
-             ${point_srcs}
-             ${_20140807}
-             ${_20140807_classTest}
-             ${udp_win})
+             ${first}
+             ${sencond}
+             ${third}
+             ${forth}
+             )
 
 # Searches for a specified prebuilt library and stores the path as a
 # variable. Because system libraries are included in the search path by

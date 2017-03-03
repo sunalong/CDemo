@@ -3,8 +3,8 @@
 // Email:466210864@qq.com
 //
 
-#include <stdio.h>
-#include <string.h>
+#include "../../../../../../../../../Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include/stdio.h"
+#include "../../../../../../../../../Library/Android/sdk/ndk-bundle/platforms/android-9/arch-arm/usr/include/string.h"
 #ifdef MYLINUX
 #include <sys/types.h>
 #include <arpa/inet.h>
