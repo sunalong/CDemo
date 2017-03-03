@@ -5,6 +5,8 @@ OBJS=$(SRCS:.c=.o)
 EXEC=libtestlib.so
 start:	$(OBJS)
 	$(CC) -o $(EXEC) $(OBJS) -shared
+	cp libtestlib.so ../cppTest/
+	cp libtestlib.so ../cTest/
 .c.o:
 	$(CC) -g -o $@ -c $< -fPIC
 clean:
