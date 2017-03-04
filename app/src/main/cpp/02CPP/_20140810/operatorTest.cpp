@@ -13,6 +13,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
+
 using namespace std;
 
 class mystring {
@@ -74,10 +75,45 @@ public:
     }
 
     void *operator new(size_t size) {
+//        int a=5;//i是左值，5是右值
+//        int b = 6;//b可以取地址，左值，6不可取地址，右值
+//        int c = a+b;//c是左值，a+b无法取地址，右值
+//        a+b = 7;//右值无法放到等号左边
+
         mystring *p = (mystring *) malloc(size);
-        //这里的 size就是 sizeof(mystring)的大小
+//        //这里的 size就是 sizeof(mystring)的大小
         cout << "mystring 重载new操作符，operator new (size_t size):,size:" << size << " sizeof(mystring):" << sizeof(mystring) << endl;
+//        mystring *str = p;
+//        return str;
         return p;
+    }
+
+    void *fuck(size_t size) {
+        mystring *p = (mystring *) malloc(size);
+//        //这里的 size就是 sizeof(mystring)的大小
+        cout << "mystring fuck，  void *fuck(){,size:" << size << " sizeof(mystring):" << sizeof(mystring) << endl;
+//        mystring *str = p;
+//        return str;
+        return p;
+    }
+
+    void *operator new[](size_t size) {
+        //参数 size就是 sizeof(mystring)的大小 *new[x]+8个字节
+        //size = 传入的参数 * sizeof(mystring) + 8
+        //24  = 1 * 16 + 8
+        //104 = 6 * 16 + 8
+        //120 = 7 * 16 + 8
+        //不同的机器可能不同，
+        mystring *p = (mystring *) malloc(size);
+        cout << "mystring 重载new[]操作符，void  *operator new[](size_t size),size:" << size << " sizeof(mystring):" << sizeof(mystring) << endl;
+        return p;
+//        return NULL;
+    }
+
+    void operator delete[](void *obj) {
+        free(obj);
+        obj = NULL;
+        cout << "mystring 重载 delete[] 操作符，operator delete[](void *obj)" << endl;
     }
 
     void operator delete(void *obj) {//重载 delete 操作符的固定写法
@@ -86,6 +122,20 @@ public:
         free(obj);//可以啊，已在 mac 和 unbutu 上验证
         obj = NULL;//防止野指针
         cout << "3mystring 重载new操作符，operator delete(void *obj)" << endl;
+    }
+
+    char &operator[](int index) {
+        //如果返回的是 char,代表的是一个右值，右值是不能直接赋值的
+        //如果返回的是 char 的引用，那么[]就可以当左值使用了
+        //就可以 str2[3]='a';了
+        return this->str[index];
+    }
+
+/**
+ * 强制转换类型的重载
+ */
+    operator int() {
+        return atoi(this->str);
     }
 
     ~mystring() {
@@ -118,7 +168,34 @@ mystring operator*(const char *str, const mystring &it) {
 
 void operatorEqualTest();
 
+void operatorOtherTest();
+
 int main() {
+    mystring *str1 = new mystring;
+    cout << "1.new重载：" << str1->str << endl << endl;
+    delete str1;
+    cout << "2.delete 重载：" << str1->str << endl << endl;
+
+    mystring *str2 = new mystring[1];
+    cout << "3.new [] 重载：" << str2->str << endl << endl;
+
+    mystring str3;
+    str3 = "ehad";
+    int *p = (int *) &str3;
+    cout<<" str8 addr:"<<&str3<<" *p:"<<*p<<" p:"<<p<<" &p:"<<&p<<endl;
+
+    mystring str4;
+    str4 = "1234";
+    int i3 = int(str3);
+    int i4 = int(str4);
+    cout<<"强制类型转换：i3:"<<i3<<" i4:"<<i4<<endl;
+
+//    operatorEqualTest();
+//    operatorOtherTest();
+    return 0;
+}
+
+void operatorOtherTest() {
     mystring str1;
     str1 = "firstStr";
     cout << "1.+号重载：" << str1.str << endl << endl;
@@ -142,14 +219,6 @@ int main() {
     cout << "6.+=号重载：" << str5.str << endl << endl;
     str5++;
     cout << "7.++号重载：" << str5.str << endl << endl;
-
-    mystring *str6 = new mystring;
-//    mystring *str6 =str5.new(5);
-    cout << "8.new重载：" << str6->str << endl << endl;
-    delete str6;
-    cout << "9.delete 重载：" << str6->str << endl << endl;
-//    operatorEqualTest();
-    return 0;
 }
 
 /**
