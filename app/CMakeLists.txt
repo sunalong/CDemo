@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.4.1)
 
+add_compile_options(-std=c++11)#指定使用 c++11
+
 file(GLOB first "src/main/cpp/02CPP/*/*.cpp" "src/main/cpp/02CPP/*/*.c")
 file(GLOB sencond "src/main/cpp/02CPP/*/*/*.cpp" "src/main/cpp/02CPP/*/*/*.c")
 file(GLOB third "src/main/cpp/02CPP/*/*/*/*.cpp" "src/main/cpp/02CPP/*/*/*/*.c")
