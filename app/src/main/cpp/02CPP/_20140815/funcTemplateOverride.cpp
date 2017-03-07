@@ -37,6 +37,7 @@ int main() {
     myswap(info1,info2);
     cout<<"after  swap info1:"<<info1.name<<" "<<info1.db<<" "<<info1.data<<endl;
     cout<<"after  swap info2:"<<info2.name<<" "<<info2.db<<" "<<info2.data<<endl;
+    myswap<Info>(info1,info2);//调用的是通用函数模板
     return 0;
 }
 
