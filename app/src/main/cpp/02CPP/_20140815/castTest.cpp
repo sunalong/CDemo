@@ -18,7 +18,17 @@ void reinterpretCastTest();
 
 using namespace std;
 
+struct CameraDesc {
+    char name[64];
+    char unique_id[64];
+};
+
 int main() {
+    long jp = 89;
+    CameraDesc *cameraDesc = reinterpret_cast<CameraDesc *>(jp);
+    cout << " cameraDesc:" << cameraDesc << " &cameraDesc:" << &cameraDesc << endl;
+    cout << " &jp:" << &jp << endl;
+//    cout<<cameraDesc->name<<" "<<cameraDesc->unique_id<<endl;
     defaultCast();
     staticCastTest();
     constCastTest();
@@ -34,9 +44,14 @@ int main() {
 void reinterpretCastTest() {
     int num = 3;
     char *p = reinterpret_cast<char *>(&num);
+    cout << "p:" << p << " &p:" << &p << endl;
+    cout << "num:" << &p << endl;
     for (int i = 0; i < 4; i++) {
-        printf("%c,%d,%p\n", *(p + i), *(p + i), *(p + i));
+        printf("%c,%d,%p,%d\n", *(p + i), *(p + i),*(p + i),(p + i));
     }
+    /**
+     * 让 char类型的指针变量 p 强行指向 int 类型的变量 num 所在的内存块
+     */
 }
 
 /**
