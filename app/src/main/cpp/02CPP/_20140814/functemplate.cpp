@@ -57,6 +57,7 @@ int main() {
  */
 void funcTempleteTest() {
     int intArr[6] = {1, 45, 8, 9, 6, 100};
+    cout << "获取的最大值：" << MAX(intArr, 6) << endl;//数组在函数参数中退化为指针
     cout << "int getMax(const int *intArr, int length)：获取的最大值：" << getMax(intArr, 6) << endl;//数组在函数参数中退化为指针
     cout << "template <typename T> T MAX(T*p,const int length)：获取的最大值：" << MAX(intArr, 6) << endl;//数组在函数参数中退化为指针
     cout << "泛型加可变参数：" << SUM(5, 1, 2, 3, 4, 5) << endl;
