@@ -23,6 +23,7 @@ int main() {
 
     std::cout << "It took me " << time_span.count() << " seconds.";
     std::cout << std::endl;
+//    g++ -g -Wall -std=c++11 chronoTest.cpp 
 //    It took me 0.000151389 seconds.
     return 0;
 }
