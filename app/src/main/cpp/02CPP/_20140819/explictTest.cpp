@@ -25,6 +25,7 @@ public:
 int main() {
     MyClass myClass0(2);//
 //    MyClass myClass1 = 4;//赋值号，类型转换，在构造函数加上 explict 后不可使用
+    MyClass myClass1 = (MyClass)4;//可以通过 g++,并能成功运行
     MyClass *pMyClass = new MyClass(5);
 //    MyClass *pMyClassArr[5] = (new MyClass(5))[5]{};
     MyClass *pMyClassArr[3];
