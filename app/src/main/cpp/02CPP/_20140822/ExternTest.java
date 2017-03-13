@@ -14,6 +14,12 @@ public class ExternTest extends Father {
         ProSon proSon = new ProSon();
         proSon.callInClass();
         proSon.proMethod();
+        System.out.println();
+
+        Father fa = new ProSon();
+        fa.proMethod();//这里与 C++不同，C++这里调用的是父类的方法，估计这里底层使用了 C++的virtual，但这里如果修改使其能调用父类的方法？
+        fa.callInClass();
+        Father fa2 = fa;
     }
 
 }
@@ -47,5 +53,15 @@ class ProSon extends Father {
         protChar = "S proChar";
         pubChar = "S pubChar";
         System.out.println("ProSon 构造方法");
+    }
+    protected void proMethod() {
+        System.out.println("子类的 protected 方法");
+    }
+
+    public String pubChar;
+
+
+    public void callInClass() {
+        System.out.println("子类的公有方法");
     }
 }

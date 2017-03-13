@@ -82,6 +82,12 @@ int main() {
     proSon.callInClass();
 //    proSon.Father::callInClass();
     cout<<"protected 继承会将原 public 成员改成 protected,这样父类的 public 方法无法在外部子类外部被调用"<<endl<<endl;
+
+    Father* fa = new PubSon;
+    fa->callInClass();//这里与Java 不同，java 调用的是子类的
+    PubSon* ps = reinterpret_cast<PubSon*>(fa);
+    ps->callInClass();//强转后可调用子类的方法
+
     system("rm -rf a.out*");
     return 0;
 }
