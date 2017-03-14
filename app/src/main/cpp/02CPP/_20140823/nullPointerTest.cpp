@@ -9,7 +9,6 @@ using namespace std;
 class Fu{
 private:
     int id;
-    char name[20];
     static int num;
 public:
     Fu(){
@@ -32,7 +31,6 @@ public:
 class Zi:public Fu{
 private:
     int id;
-    char name[20];
     static int num;
 public:
     Zi(){
@@ -63,4 +61,3 @@ int main() {
     system("rm -rf a.out*");
     return 0;
 }
-
