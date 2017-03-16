@@ -52,7 +52,7 @@ void run4() {
 }
 int main() {
 
-//    test1();
+    test1();
 //    test2();
 //    test3();
     test4();
@@ -62,7 +62,9 @@ int main() {
 }
 /**
  * 两线程在构造之前分别 join 后速度快，运行结果正确：
-       num3=200000,用时：562ms
+       num4=200000,用时：562ms
+   线程1 先 调用方法join 后再构造线程2的作用：当 thread1 执行完毕后才执行 thread2,并不是两线程同时在运行，
+   若两线程依次构造，然后再依次调用方法join的作用：两线程并发执行，即 test1()
  */
 void test4() {
     clock_t start = clock();
@@ -71,7 +73,7 @@ void test4() {
     thread thread2(run4);
     thread2.join();
     clock_t end = clock();
-    cout << "num3=" << num4 << ",用时：" << end - start << "ms" << endl;
+    cout << "num4=" << num4 << ",用时：" << end - start << "ms" << endl;
 }
 
 /**
