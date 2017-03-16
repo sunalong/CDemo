@@ -12,7 +12,7 @@ using namespace std;
 const int N = 100 * 1000;
 int num1 = 0;
 int num2 = 0;
-atomic_int atomicIntNum{0};//不会发生线程冲突，线程安全
+
 int num4 = 0;
 
 void test1();
@@ -38,7 +38,7 @@ void run2() {
         m.unlock();
     }
 }
-
+atomic_int atomicIntNum{0};//不会发生线程冲突，线程安全
 void run3(){
     for (int i = 0; i < N; ++i) {
         atomicIntNum++;

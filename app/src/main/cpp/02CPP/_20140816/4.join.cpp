@@ -19,7 +19,7 @@ int main() {
         cout << "i=" << i << " " << myThreadArray[i].joinable() << endl;//判断线程是否可以 join
         myThreadArray[i].join();//join 的作用：让当前主线程等待子线程执行完成再退出
     }
-    cout<<"main done"<<endl;
+    cout << "main done" << endl;
     system("rm -rf a.out*");
     return 0;
 }
