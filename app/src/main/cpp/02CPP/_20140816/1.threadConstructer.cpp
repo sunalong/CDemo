@@ -20,7 +20,7 @@ void fun2(int &n){
 }
 int main() {
     int n=0;
-    cout<<"main thread id:"<<this_thread::get_id()<<endl;
+    cout<<"main thread id:"<<this_thread::get_id()<<",type:"<< typeid(this_thread::get_id()).name()<<endl;
     thread thread1;
     cout<<"thread1,id:"<<thread1.get_id()<<endl;
     thread thread2(fun1,n+1);//按值传递
