@@ -2,10 +2,11 @@ cmake_minimum_required(VERSION 3.4.1)
 
 add_compile_options(-std=c++11)#指定使用 c++11
 
-file(GLOB first "src/main/cpp/02CPP/*/*.cpp" "src/main/cpp/02CPP/*/*.c")
-file(GLOB sencond "src/main/cpp/02CPP/*/*/*.cpp" "src/main/cpp/02CPP/*/*/*.c")
-file(GLOB third "src/main/cpp/02CPP/*/*/*/*.cpp" "src/main/cpp/02CPP/*/*/*/*.c")
-file(GLOB forth "src/main/cpp/02CPP/*/*/*/*/*.cpp" "src/main/cpp/02CPP/*/*/*/*/*.c")
+file(GLOB zero "src/main/cpp/*/*.cpp" "src/main/cpp/*/*.c")
+file(GLOB first "src/main/cpp/*/*/*.cpp" "src/main/cpp/*/*/*.c")
+file(GLOB sencond "src/main/cpp/*/*/*/*.cpp" "src/main/cpp/*/*/*/*.c")
+file(GLOB third "src/main/cpp/*/*/*/*/*.cpp" "src/main/cpp/*/*/*/*/*.c")
+file(GLOB forth "src/main/cpp/*/*/*/*/*/*.cpp" "src/main/cpp/*/*/*/*/*/*.c")
 
 add_library( # Sets the name of the library.
              native-lib
@@ -16,6 +17,7 @@ add_library( # Sets the name of the library.
              # Provides a relative path to your source file(s).
              # Associated headers in the same location as their source
              # file are automatically included.
+             ${zero}
              ${first}
              ${sencond}
              ${third}
